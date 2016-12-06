@@ -1,0 +1,192 @@
+[06-Dec-2016 01:34:53 UTC] PHP Warning:  mysql_connect(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 19
+[06-Dec-2016 01:34:53 UTC] PHP Stack trace:
+[06-Dec-2016 01:34:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:34:53 UTC] PHP   2. Database->__construct() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:3
+[06-Dec-2016 01:34:53 UTC] PHP   3. Database->connect() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:14
+[06-Dec-2016 01:34:53 UTC] PHP   4. mysql_connect() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:19
+[06-Dec-2016 01:34:53 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:34:53 UTC] PHP Stack trace:
+[06-Dec-2016 01:34:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:34:53 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:9
+[06-Dec-2016 01:34:53 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:34:53 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:34:53 UTC] PHP Stack trace:
+[06-Dec-2016 01:34:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:34:53 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:9
+[06-Dec-2016 01:34:53 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:34:53 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:34:53 UTC] PHP Stack trace:
+[06-Dec-2016 01:34:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:34:53 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:16
+[06-Dec-2016 01:34:53 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:34:53 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:34:53 UTC] PHP Stack trace:
+[06-Dec-2016 01:34:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:34:53 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:16
+[06-Dec-2016 01:34:53 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:34:53 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:34:53 UTC] PHP Stack trace:
+[06-Dec-2016 01:34:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:34:53 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:23
+[06-Dec-2016 01:34:53 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:34:53 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:34:53 UTC] PHP Stack trace:
+[06-Dec-2016 01:34:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:34:53 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:23
+[06-Dec-2016 01:34:53 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:34:53 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:34:53 UTC] PHP Stack trace:
+[06-Dec-2016 01:34:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:34:53 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:29
+[06-Dec-2016 01:34:53 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:34:53 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:34:53 UTC] PHP Stack trace:
+[06-Dec-2016 01:34:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:34:53 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:29
+[06-Dec-2016 01:34:53 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:34:53 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:34:53 UTC] PHP Stack trace:
+[06-Dec-2016 01:34:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:34:53 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:36
+[06-Dec-2016 01:34:53 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:34:53 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:34:53 UTC] PHP Stack trace:
+[06-Dec-2016 01:34:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:34:53 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:36
+[06-Dec-2016 01:34:53 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:34:53 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:34:53 UTC] PHP Stack trace:
+[06-Dec-2016 01:34:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:34:53 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:45
+[06-Dec-2016 01:34:53 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:34:53 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:34:53 UTC] PHP Stack trace:
+[06-Dec-2016 01:34:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:34:53 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:45
+[06-Dec-2016 01:34:53 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:34:53 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:34:53 UTC] PHP Stack trace:
+[06-Dec-2016 01:34:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:34:53 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:53
+[06-Dec-2016 01:34:53 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:34:53 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:34:53 UTC] PHP Stack trace:
+[06-Dec-2016 01:34:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:34:53 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:53
+[06-Dec-2016 01:34:53 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:34:53 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:34:53 UTC] PHP Stack trace:
+[06-Dec-2016 01:34:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:34:53 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:64
+[06-Dec-2016 01:34:53 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:34:53 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:34:53 UTC] PHP Stack trace:
+[06-Dec-2016 01:34:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:34:53 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:64
+[06-Dec-2016 01:34:53 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:34:53 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:34:53 UTC] PHP Stack trace:
+[06-Dec-2016 01:34:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:34:53 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:74
+[06-Dec-2016 01:34:53 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:34:53 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:34:53 UTC] PHP Stack trace:
+[06-Dec-2016 01:34:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:34:53 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:74
+[06-Dec-2016 01:34:53 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:39:27 UTC] PHP Warning:  mysql_connect(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 19
+[06-Dec-2016 01:39:27 UTC] PHP Stack trace:
+[06-Dec-2016 01:39:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:39:27 UTC] PHP   2. Database->__construct() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:3
+[06-Dec-2016 01:39:27 UTC] PHP   3. Database->connect() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:14
+[06-Dec-2016 01:39:27 UTC] PHP   4. mysql_connect() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:19
+[06-Dec-2016 01:39:27 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:39:27 UTC] PHP Stack trace:
+[06-Dec-2016 01:39:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:39:27 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:9
+[06-Dec-2016 01:39:27 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:39:27 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:39:27 UTC] PHP Stack trace:
+[06-Dec-2016 01:39:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:39:27 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:9
+[06-Dec-2016 01:39:27 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:39:27 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:39:27 UTC] PHP Stack trace:
+[06-Dec-2016 01:39:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:39:27 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:16
+[06-Dec-2016 01:39:27 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:39:27 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:39:27 UTC] PHP Stack trace:
+[06-Dec-2016 01:39:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:39:27 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:16
+[06-Dec-2016 01:39:27 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:39:27 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:39:27 UTC] PHP Stack trace:
+[06-Dec-2016 01:39:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:39:27 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:23
+[06-Dec-2016 01:39:27 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:39:27 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:39:27 UTC] PHP Stack trace:
+[06-Dec-2016 01:39:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:39:27 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:23
+[06-Dec-2016 01:39:27 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:39:27 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:39:27 UTC] PHP Stack trace:
+[06-Dec-2016 01:39:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:39:27 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:29
+[06-Dec-2016 01:39:27 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:39:27 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:39:27 UTC] PHP Stack trace:
+[06-Dec-2016 01:39:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:39:27 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:29
+[06-Dec-2016 01:39:27 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:39:27 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:39:27 UTC] PHP Stack trace:
+[06-Dec-2016 01:39:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:39:27 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:36
+[06-Dec-2016 01:39:27 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:39:27 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:39:27 UTC] PHP Stack trace:
+[06-Dec-2016 01:39:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:39:27 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:36
+[06-Dec-2016 01:39:27 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:39:27 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:39:27 UTC] PHP Stack trace:
+[06-Dec-2016 01:39:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:39:27 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:45
+[06-Dec-2016 01:39:27 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:39:27 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:39:27 UTC] PHP Stack trace:
+[06-Dec-2016 01:39:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:39:27 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:45
+[06-Dec-2016 01:39:27 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:39:27 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:39:27 UTC] PHP Stack trace:
+[06-Dec-2016 01:39:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:39:27 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:53
+[06-Dec-2016 01:39:27 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:39:27 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:39:27 UTC] PHP Stack trace:
+[06-Dec-2016 01:39:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:39:27 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:53
+[06-Dec-2016 01:39:27 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:39:27 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:39:27 UTC] PHP Stack trace:
+[06-Dec-2016 01:39:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:39:27 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:64
+[06-Dec-2016 01:39:27 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:39:27 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:39:27 UTC] PHP Stack trace:
+[06-Dec-2016 01:39:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:39:27 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:64
+[06-Dec-2016 01:39:27 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:39:27 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:39:27 UTC] PHP Stack trace:
+[06-Dec-2016 01:39:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:39:27 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:74
+[06-Dec-2016 01:39:27 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
+[06-Dec-2016 01:39:27 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php on line 52
+[06-Dec-2016 01:39:27 UTC] PHP Stack trace:
+[06-Dec-2016 01:39:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:0
+[06-Dec-2016 01:39:27 UTC] PHP   2. Db_Functions->query() /home/ubuntu/workspace/info2180-project-3/etc/config/mysql_db.lib.php:74
+[06-Dec-2016 01:39:27 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/info2180-project-3/etc/config/database.lib.php:52
