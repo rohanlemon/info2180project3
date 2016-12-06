@@ -37,11 +37,6 @@ if($user->isLogin()){
             <a href="admin.php">Add User</a>
             <?php } ?>
             <a href="index.php?do=home">Logout</a>
-            <a href="">done by 
-                <br/>Rohan Lemon - rsl
-                <br/>Stacey Lemon - slm
-                <br/>R.J. Lemon - rjl
-            </a>
         </footer>
     </aside>
     <section id="main">

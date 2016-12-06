@@ -14,14 +14,7 @@ CREATE TABLE IF NOT EXISTS `message` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=9 ;
 
-INSERT INTO `message` (`id`, `body`, `subject`, `user_id`, `recipient_ids`) VALUES
-(1, 'sdad', 'osha', 'rsl23', 'rsl23'),
-(2, 'sada, this user does not exists', 'Unable to deliever to sada', 'admin', 'rsl23'),
-(3, 'sdadasd', 'sada', 'rsl23', 'sada'),
-(4, 'Just want to say hi', 'hi', 'rsl23', 'admin'),
-(5, 'Hi', 'Hola', 'britts', 'rsl23'),
-(6, 'Briits, this user does not exists', 'Unable to deliever to Briits', 'admin', 'rsl23'),
-(8, 'Hola you', 'Hi Back', 'rsl23', 'britts');
+
 
 CREATE TABLE IF NOT EXISTS `message_read` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -31,8 +24,6 @@ CREATE TABLE IF NOT EXISTS `message_read` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
 
-INSERT INTO `message_read` (`id`, `message_id`, `read_id`, `date`) VALUES
-(1, 8, 'britts', '2013-12-15 04:10:17');
 
 CREATE TABLE IF NOT EXISTS `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,

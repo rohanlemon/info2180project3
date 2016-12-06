@@ -23,7 +23,7 @@ if($user->isUserLogin('admin')){
 <div id="container">
 
     <div id="regs-box">
-        <p>Welcome to Cheapo Mail where you can send email to other cheapo users. Please Enter the following fields to add a new user </p>
+        <p>Please fill out the following fields to add a new user: </p>
  <form class="logreg" name="register" autocomplete="off">
  
     <label class="fields" ><span>First Name:</span><input name="first_name" required class="form-login" type="text" /></label>

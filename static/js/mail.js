@@ -38,17 +38,17 @@ $(window).bind("load resize", 'window', function(){
 
 changeUrl('?do=mail');
 $('#menu').click(function(){   
-   if($(sidem).css("left") != "0px"){
+  if($(sidem).css("left") != "0px"){
 		$(sidem).animate({"left" :"0"}, "slow");   
 		$('#main').animate({"left" :"195px"}, "slow");   
 		$(this).animate({"left":"195px"}, "slow");  
-       $("#head").css('position', 'fixed');
-   }else{
+      $("#head").css('position', 'fixed');
+  }else{
 		$(sidem).animate({"left": "-195px"}, "slow");   
 		$('#main').animate({"left": "0px"}, "slow");   
 		$(this).animate({"left":"3px"}, "slow");
-       $("#head").css('position', 'absolute');	
-   }
+      $("#head").css('position', 'absolute');	
+  }
 });
 $('#compose').click(function(e){
     $("#composer").show();
