@@ -3,18 +3,14 @@
     padding: 20px 35px 50px 35px;
 	margin:opx auto;
 	color: #ebebeb;
-	font: 12px Arial, Helvetica, sans-serif;
-	/*background-image:  url(../img/login-box-backg.png);*/
+	font: 12px "Times New Roman", Times, serif;
     background-size: cover;
     border-radius: 5px;
     box-shadow: 0 0 20px #555;
-    background-color: black;
+    background-color: rgb(120, 87, 87);;
     width: 420px;
     top: 20%;
 }	
 
-#regs-box a.logo{
-    text-align:center;
-    display:block;
-}
+
 

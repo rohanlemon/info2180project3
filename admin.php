@@ -23,7 +23,6 @@ if($user->isUserLogin('admin')){
 <div id="container">
 
     <div id="regs-box">
-    <a href="index.php" class="logo"><img src="static/img/logo.png" ></a>
         <p>Welcome to Cheapo Mail where you can send email to other cheapo users. Please Enter the following fields to add a new user </p>
  <form class="logreg" name="register" autocomplete="off">
  

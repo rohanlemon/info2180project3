@@ -26,7 +26,7 @@ if(!empty($_POST['type'])){
 		case 'getSent':
 			getSentMessages(true);
 			break;
-		case 'sent':
+		case 'outbox':
 			getSentMessages();
 			break;
 		default:

@@ -1,9 +1,9 @@
 // JavaScript Document
 var window_width = window.innerWidth;
 var window_height = window.innerHeight;	
-var mitems = document.getElementById("menu_items");
-var meslist = document.getElementById('message_list');
-var mestable = document.getElementById('tbmes');
+var sidem = document.getElementById("sidemenu");
+var msglist = document.getElementById('message_list');
+var msgtable = document.getElementById('tbmes');
 document.title = 'Cheapomail Inbox';
 function syncd(do_sync){
     if(!do_sync){
@@ -31,20 +31,20 @@ function alert_new(do_alert){
 $(window).bind("load resize", 'window', function(){
     var window_width = window.innerWidth;
     var window_height = window.innerHeight;	
-    mitems.style.height = window_height+'px';
-    meslist.style.width = (window_width - 30)+'px';
+    sidem.style.height = window_height+'px';
+    msglist.style.width = (window_width - 30)+'px';
     $('#main').width((window_width - 30)+'px');
 });
 
 changeUrl('?do=mail');
 $('#menu').click(function(){   
-   if($(mitems).css("left") != "0px"){
-		$(mitems).animate({"left" :"0"}, "slow");   
+   if($(sidem).css("left") != "0px"){
+		$(sidem).animate({"left" :"0"}, "slow");   
 		$('#main').animate({"left" :"195px"}, "slow");   
 		$(this).animate({"left":"195px"}, "slow");  
        $("#head").css('position', 'fixed');
    }else{
-		$(mitems).animate({"left": "-195px"}, "slow");   
+		$(sidem).animate({"left": "-195px"}, "slow");   
 		$('#main').animate({"left": "0px"}, "slow");   
 		$(this).animate({"left":"3px"}, "slow");
        $("#head").css('position', 'absolute');	
@@ -64,10 +64,10 @@ $('#inbox').click(function(e){
     $('#context_switch').text('Sender');
     getMessages('get_ten');
 });
-$('#sent').click(function(e){
+$('#outbox').click(function(e){
     closeNessage();
     $('#context_switch').text('To');
-    getMessages('sent');
+    getMessages('outbox');
 });
 
 getMessages('get_ten');
@@ -75,18 +75,18 @@ function getMessages(amt){
     $.post('etc/modules/message/controller.php', {'type': amt} , function(data){
 	   if(data != 0){
 		   var num_mes = $(data).filter('tr');
-		   var table = $('#mestable tbody');
+		   var table = $('#msgtable tbody');
            if(amt != 'get_ten'){
                alert_new(true);
            }else if(amt == 'get_ten'){
                table.empty();
-           }else if(amt == 'sent'){
+           }else if(amt == 'outbox'){
                 table.empty();   
            }           
 		   table.prepend(data);
 	   }else{
 		   if(amt == 'get_ten'){
-			$('#mestable tbody').empty().append('<tr><td></td><td>No Message Available</td></tr>');
+			$('#msgtable tbody').empty().append('<tr><td></td><td>No Message Available</td></tr>');
 		   }
 	   }
 	});    
@@ -112,8 +112,8 @@ $('#composer form[name="composer"]').submit(function(e){
 
 
 function closeNessage(){
-    mitems.style.height = (window_height - 50)+'px';
-    meslist.style.width = (window_width - 30)+'px';
+    sidem.style.height = (window_height - 50)+'px';
+    msglist.style.width = (window_width - 30)+'px';
     $("#message_content").width('0px').hide();
     
 }
@@ -131,10 +131,10 @@ function reply(pa){
 
 function readMessage(e, ad){
     var id = $(e).attr('id');
-    $(meslist).width('300px');
+    $(msglist).width('300px');
     var mcon = $("#message_content");           
     mcon.width(($('#main').width() - 320)+"px").show();
-    $("#mestable td").css({"max-width": '150px'});
+    $("#msgtable td").css({"max-width": '150px'});
     mcon.width((window_width * 0.71)+'px');
     alert_new(false);
     $.ajax({
@@ -145,7 +145,7 @@ function readMessage(e, ad){
             mcon.empty();
             mcon.append(data);
             $(e).removeClass('new');
-            mcon.height(($(meslist).height() + 'px'));
+            mcon.height(($(msglist).height() + 'px'));
         }        
     });    
 };

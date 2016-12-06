@@ -21,16 +21,16 @@
 <?php 
 if($user->isLogin()){ 
     ?>
-    <link href="static/css/mailer.css" rel="stylesheet" type="text/css" />    
+    <link href="static/css/messenger.css" rel="stylesheet" type="text/css" />    
     <input type="button" id="menu" value="menu" />
-    <div id="user"><a href="user.php?id=<?php echo $user->getUserBy('name'); ?>"><?php echo $user->getUserBy('name'); ?></a></div>
     <section id="head"></section>    
-    <aside id="menu_items">
+    <aside id="sidemenu">
+        <div id="user"><a href="user.php?id=<?php echo $user->getUserBy('name'); ?>"><?php echo $user->getUserBy('name'); ?></a></div>
         <input type="button" value="Compose" id="compose" />
-        <h2>Folders</h2>
+        <h3>Message Boxes</h3>
          <ul>
             <li id="inbox">Inbox</li>
-            <li id="sent" >Sent</li>            
+            <li id="outbox" >Outbox</li>            
         </ul>
         <footer>
             <?php if($user->isUserLogin('admin')){ ?>
@@ -46,11 +46,11 @@ if($user->isLogin()){
     </aside>
     <section id="main">
         <section id="message_list" >
-            <table id="mestable" >
+            <table id="msgtable" >
               <thead>
                 <tr>
-                  <th id="context_switch">Sender</th>
-                  <th>Description</th>
+                  <th id="context_switch">From:</th>
+                  <th>Details:</th>
                 </tr>
               </thead>
               <tbody>
@@ -82,12 +82,11 @@ if($user->isLogin()){
 <link href="static/css/home.css" rel="stylesheet" type="text/css" />
 <div id="container">
     <div id="login-box">
-    <a href="" class="logo"><img src="static/img/logo.png" ></a>
-        <p>Welcome to Cheapo Mail where you can send email to other cheapo users. </p>
+        <p>Welcome! </p>
        <form class="logreg" name="login" autocomplete="off">
             <label class="fields" ><span>Username:</span><input name="username" required class="form-login" title="Username" id="username"  /></label>
             <label class="fields" ><span>Password:</span><input name="pass" type="password" class="form-login" title="Password" id="pass" /></label>
-            <input type="submit" class="regsign logi" value="login" />
+            <input type="submit" class="regsign login" value="login" />
         </form> 
     </div>
 </div>
