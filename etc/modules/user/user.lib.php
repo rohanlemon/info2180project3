@@ -27,6 +27,15 @@ class User{
 		}else{
 			return 0;
 		}
+	}	
+	
+	public static function getUsers(){
+		$db = new Db_Functions();
+		if($result = $db->fetch_query_results("select id, first_name, last_name, username from user")){
+			return $result;
+		}else{
+			return null;
+		}
 	}
 	
 	public function addUser($first_name, $last_name, $username, $pass){

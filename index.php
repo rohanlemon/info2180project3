@@ -35,6 +35,9 @@ if($user->isLogin()){
         <footer>
             <?php if($user->isUserLogin('admin')){ ?>
             <a href="admin.php">Add User</a>
+            <br/>
+            <a href="list.php">List Users</a>
+            <br/>
             <?php } ?>
             <a href="index.php?do=home">Logout</a>
         </footer>

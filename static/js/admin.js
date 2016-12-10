@@ -12,10 +12,12 @@ window.onload = function(){
     });
 	$('form[name="register"]').submit(function(e){   
         if(pass.val() === cpass.val() && patt.test(pass.val())){
+            var username = $(this)[0].username.value;
 		$.post('etc/modules/user/add.php', $(this).serialize(), function(data){
             console.log(data);
            if(data == 1){
-                window.location.assign('index.php?do=home');   
+                alert("Account has been created, you can now login as " + username);
+                window.location.assign('index.php?do=home');
            }else{
                $("#err").remove();
                 $('#container').append('<div id="err">Something went wrong in registeration</div>');   
